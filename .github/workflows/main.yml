@@ -21,7 +21,10 @@ jobs:
       run: pwd
 
     - name: List Repository Files
-      run: ls
+      run: ls 
 
     - name: Display Completion Message
       run: echo "Pipeline Executed Successfully"
+
+    - name: Invalid Command
+      run: abcxyz
